@@ -37,4 +37,5 @@
 body {
   font-family: var(font-family);
   background-image: url(/assets/images/background-mobile.png);
+  font-size: var(--font-size-labels);
 }

@@ -36,5 +36,5 @@
 
 body {
   font-family: var(font-family);
-  background-color: bisque;
+  background-image: url(/assets/images/background-mobile.png);
 }

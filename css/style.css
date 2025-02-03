@@ -1,5 +1,41 @@
 @import url('normalize.css');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+  --neutral-0: hsl(0, 0%, 100%);
+  --neutral-300: hsl(252, 6%, 83%);
+  --neutra-500: hsl(245, 15%, 58%);
+  --neutral-700: hsl(245, 19%, 35%);
+  --neutral-900: hsl(248, 70%, 10%);
+
+  /* Orange */
+  -orange-500: hsl(7, 88%, 67%);
+  -orange-700: hsl(7, 71%, 60%);
+
+  /* Gradient */
+  --Gradient-text: hsl(7, 86%, 67%) to hsl(0, 0%, 100%);
+
+  /* Typogtaphy */
+
+  /* Body */
+  -font-size-labels: 20px;
+
+  /* Font */
+
+  font-family: 'Inconsolata', serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
 body {
-  background-color: blue;
+  font-family: var(font-family);
+  background-image: url(/assets/images/background-mobile.png);
+  font-size: var(--font-size-labels);
 }

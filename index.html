@@ -25,25 +25,32 @@
   <body>
     <section class="container">
       <div class="header--info">
-        <h1>Coding Conf</h1>
-        <h2>Your Journey to Coding Conf 2025 Starts Here!</h2>
-        <h3>Secure your spot at next year's biggest coding conferece.</h3>
-        <h5>Upload Avatar</h5>
+        <h1 class="title">Coding Conf</h1>
+        <h2 class="info">Your Journey to Coding Conf 2025 Starts Here!</h2>
+        <article class="article-info">
+          Secure your spot at next year's biggest coding conferece.
+        </article>
       </div>
       <section class="form--info--contatiner">
         <div class="avatar">
-          <h5>Upload Avatar</h5>
-          <p>Upload Avatar</p>
-          <p>Upload your photo (JPG or PNG. max size: 500KB)</p>
+          <p class="avatar__info">Upload Avatar</p>
+          <p class="avatar__photo__info">
+            Upload your photo (JPG or PNG. max size: 500KB)
+          </p>
         </div>
         <div class="form">
           <form>
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" />
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" />
-            <label for="gitHub">GitHub Username</label>
-            <input type="email" name="gitHub" id="username" />
+            <label for="name" class="label__name">Full Name</label>
+            <input type="text" id="name" name="name" class="input__name" />
+            <label for="email" class="email__label">Email Address</label>
+            <input type="email" id="email" name="email" class="email__input" />
+            <label for="gitHub" class="github__label">GitHub Username</label>
+            <input
+              type="email"
+              name="gitHub"
+              id="username"
+              class="github__input"
+            />
             <button type="button" class="main__btn">Generate My Ticket</button>
           </form>
         </div>

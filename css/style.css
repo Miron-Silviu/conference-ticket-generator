@@ -36,6 +36,22 @@
 
 body {
   font-family: var(font-family);
-  /* background-image: url(/assets/images/background-mobile.png); */
+  background-image: url(/assets/images/background-mobile.png);
+
   font-size: var(--font-size-labels);
+  display: flex;
+}
+.container {
+  background-image: url(/assets/images/pattern-squiggly-line-top.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem, 0.1rem;
+}
+
+.title {
+  color: var(--neutral-0);
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
 }

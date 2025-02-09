@@ -9,7 +9,7 @@
   /* Colors */
   --neutral-0: hsl(0, 0%, 100%);
   --neutral-300: hsl(252, 6%, 83%);
-  --neutra-500: hsl(245, 15%, 58%);
+  --neutral-500: hsl(245, 15%, 58%);
   --neutral-700: hsl(245, 19%, 35%);
   --neutral-900: hsl(248, 70%, 10%);
 
@@ -57,5 +57,21 @@ body {
 }
 .info {
   color: var(--neutral-0);
+}
+.info,
+.article-info {
   text-align: center;
+}
+.article-info {
+  color: var(--neutral-500);
+  font-size: 1.1rem;
+}
+
+.avatar {
+  margin: 0 1rem;
+}
+.avatar__info {
+  color: var(--neutral-300);
+  margin-top: 2rem;
+  font-size: 1rem;
 }

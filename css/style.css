@@ -76,7 +76,7 @@ body {
   font-size: 1rem;
 }
 
-.drag_drop {
+.drag__drop {
   background-color: var(--neutral-700);
   opacity: 0.5;
   border: dotted;
@@ -84,4 +84,20 @@ body {
   border-color: var(--neutral-0);
   margin: 0.5rem 0rem;
   height: 17vh;
+  display: flex;
+  flex-direction: column;
+}
+.img__upload__container {
+  background-color: var(--neutral-500);
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem 0 0 0;
+  align-self: center;
+  border-radius: 10px;
+}
+.drag__drop__info {
+  color: var(--neutral-0);
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0.5rem 0 0.7rem 0;
 }

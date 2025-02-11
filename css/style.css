@@ -41,6 +41,7 @@ body {
   font-size: var(--font-size-labels);
   display: flex;
 }
+/* main container */
 .container {
   background-image: url(/assets/images/pattern-squiggly-line-top.svg);
   background-repeat: no-repeat;
@@ -55,6 +56,8 @@ body {
   display: flex;
   font-size: 1.6rem;
 }
+
+/* h1 and article  */
 .info {
   color: var(--neutral-0);
 }
@@ -67,6 +70,7 @@ body {
   font-size: 1.1rem;
 }
 
+/* avatar container */
 .avatar {
   margin: 0 1rem;
 }
@@ -76,6 +80,7 @@ body {
   font-size: 1rem;
 }
 
+/* drad and drop container */
 .drag__drop {
   background-color: var(--neutral-700);
   opacity: 0.5;
@@ -89,12 +94,15 @@ body {
 }
 .img__upload__container {
   background-color: var(--neutral-500);
+
   height: 2rem;
   width: 2rem;
   margin: 1rem 0 0 0;
   align-self: center;
   border-radius: 10px;
+  display: flex;
 }
+
 .drag__drop__info {
   color: var(--neutral-0);
   text-align: center;

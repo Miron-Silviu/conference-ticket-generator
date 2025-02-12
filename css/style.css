@@ -109,3 +109,27 @@ body {
   vertical-align: bottom;
   padding: 0.5rem 0 0.7rem 0;
 }
+
+/* avatar container */
+
+.avatar--container {
+  display: flex;
+}
+
+.avatar__photo__info {
+  color: var(--neutral-300);
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 0 0 0 0.5rem;
+}
+
+/* form */
+.form {
+  background: red;
+  display: flex;
+  margin: 1rem 0.5rem;
+}
+
+.label__name {
+  color: var(--neutral-0);
+}

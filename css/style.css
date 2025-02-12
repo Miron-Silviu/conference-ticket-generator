@@ -46,6 +46,9 @@ body {
   background-image: url(/assets/images/pattern-squiggly-line-top.svg);
   background-repeat: no-repeat;
   display: flex;
+  background-size: 9rem;
+  background-position: right;
+  background-position-y: top;
   flex-direction: column;
   margin: 0.5rem, 0.1rem;
 }
@@ -55,6 +58,7 @@ body {
   justify-self: center;
   display: flex;
   font-size: 1.6rem;
+  margin: 2rem 0;
 }
 
 /* h1 and article  */
@@ -125,11 +129,55 @@ body {
 
 /* form */
 .form {
-  background: red;
+  /* background: red; */
   display: flex;
+  margin: 0.5rem 0.5rem;
+  background-image: url(/assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg);
+  background-size: cover;
+  background-position: bottom;
+  background-position-x: left;
+  background-size: 11rem;
+  background-repeat: no-repeat;
+  gap: 3rem;
+  height: 70vh;
+}
+.name__form__container,
+.email__form__container,
+.form__github__container {
+  /* background: green; */
+  display: block;
   margin: 1rem 0.5rem;
 }
 
-.label__name {
+.label__name,
+.email__label,
+.github__label {
   color: var(--neutral-0);
+  display: block;
+}
+
+.input__name,
+.email__input,
+.github__input {
+  width: 89vw;
+  border-radius: 7px;
+  padding: 0.4rem 0;
+  margin: 0.1rem 0;
+  border-color: var(--neutral-0);
+  background-color: var(--neutral-700);
+  opacity: 0.5;
+}
+::placeholder {
+  color: var(--neutral-0);
+}
+
+/* button */
+.main__btn {
+  display: flex;
+  justify-self: center;
+  padding: 0.5rem 4.7rem;
+  width: 90vw;
+  border-radius: 7px;
+  background-color: var(--orange-500);
+  margin: 1rem 0;
 }

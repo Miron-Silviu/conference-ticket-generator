@@ -36,14 +36,14 @@
 
 body {
   font-family: var(font-family);
-  background-image: url(/assets/images/background-mobile.png);
+  background-image: url(./assets/images/background-mobile.png);
 
   font-size: var(--font-size-labels);
   display: flex;
 }
 /* main container */
 .container {
-  background-image: url(/assets/images/pattern-squiggly-line-top.svg);
+  background-image: url(./assets/images/pattern-squiggly-line-top.svg);
   background-repeat: no-repeat;
   display: flex;
   background-size: 9rem;
@@ -96,6 +96,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.drag__drop__buttons {
+  display: none;
+}
 .img__upload__container {
   background-color: var(--neutral-500);
 
@@ -129,10 +132,9 @@ body {
 
 /* form */
 .form {
-  /* background: red; */
   display: flex;
   margin: 0.5rem 0.5rem;
-  background-image: url(/assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg);
+  background-image: url(./assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg);
   background-size: cover;
   background-position: bottom;
   background-position-x: left;
@@ -144,7 +146,6 @@ body {
 .name__form__container,
 .email__form__container,
 .form__github__container {
-  /* background: green; */
   display: block;
   margin: 1rem 0.5rem;
 }

@@ -42,25 +42,25 @@ body {
   display: flex;
 }
 /* main container */
-.header--info {
-  width: 100%;
-  display: block;
-}
 .container {
   background-image: url(../assets/images/pattern-squiggly-line-top.svg);
   background-repeat: no-repeat;
-  display: -webkit-flex;
+  display: flex;
   background-size: 9rem;
   background-position: right;
   background-position-y: top;
   flex-direction: column;
   margin: 0.5rem, 0.1rem;
 }
+.header--info {
+  width: 100%;
+  display: block;
+}
 
 .logo {
   color: var(--neutral-0);
   justify-self: center;
-  display: flex;
+  display: -webkit-flex;
   font-size: 1.6rem;
   margin: 2rem 0;
 }

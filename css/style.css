@@ -145,7 +145,8 @@ body {
 }
 .name__form__container,
 .email__form__container,
-.form__github__container {
+.form__github__container,
+.main__button__container {
   display: block;
   margin: 1rem 0.5rem;
 }
@@ -181,4 +182,5 @@ body {
   border-radius: 7px;
   background-color: var(--orange-500);
   margin: 1rem 0;
+  text-align: center;
 }

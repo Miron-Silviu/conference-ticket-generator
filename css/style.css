@@ -62,7 +62,6 @@ body {
   display: -webkit-flex;
   width: 100%;
   justify-content: center;
-  background-color: brown;
 }
 .logo {
   color: var(--neutral-0);

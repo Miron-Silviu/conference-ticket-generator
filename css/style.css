@@ -188,8 +188,8 @@ body {
   border-radius: 7px;
   background-color: var(--orange-500);
   margin: 1rem 0;
-  font-weight: 700;
-  border-color: none;
+  font-weight: 900;
+  border-color: transparent;
 }
 
 .remove,

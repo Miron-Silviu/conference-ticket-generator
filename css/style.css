@@ -189,6 +189,7 @@ body {
   background-color: var(--orange-500);
   margin: 1rem 0;
   font-weight: 900;
+  color: var(--neutral-900);
   border-color: transparent;
 }
 

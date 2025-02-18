@@ -129,11 +129,13 @@ body {
   text-align: center;
   padding: 0 0 0 0.5rem;
 }
-
+/* .form--info--contatiner {
+  background-color: blueviolet;
+} */
 /* form */
 .form {
   display: flex;
-  margin: 0.5rem 0.5rem;
+  margin: 0.5rem 1rem;
   background-image: url(../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg);
   background-size: cover;
   background-position: bottom;
@@ -142,13 +144,17 @@ body {
   background-repeat: no-repeat;
   gap: 3rem;
   height: 70vh;
+  max-width: auto;
+  justify-content: center;
 }
 .name__form__container,
 .email__form__container,
 .form__github__container,
 .main__button__container {
-  display: block;
-  margin: 1rem 0.5rem;
+  display: -webkit-flex;
+  flex-direction: column;
+  margin: 0.5rem 0 1rem 0;
+  width: 92vw;
 }
 
 .label__name,
@@ -161,9 +167,9 @@ body {
 .input__name,
 .email__input,
 .github__input {
-  width: 89vw;
+  width: 100%;
   border-radius: 7px;
-  padding: 0.4rem 0;
+  padding: 0.7rem 0;
   margin: 0.1rem 0;
   border-color: var(--neutral-0);
   background-color: var(--neutral-700);
@@ -176,13 +182,12 @@ body {
 /* button */
 .main__btn {
   display: flex;
-  justify-self: center;
-  padding: 0.5rem 4.7rem;
-  width: 90vw;
+  justify-content: center;
+  padding: 1rem;
+  width: auto;
   border-radius: 7px;
   background-color: var(--orange-500);
   margin: 1rem 0;
-  text-align: center;
 }
 
 .remove,

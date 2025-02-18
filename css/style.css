@@ -134,6 +134,10 @@ body {
   background-color: blueviolet;
 } */
 /* form */
+input[type='file'] {
+  /* display: none; */
+}
+
 .form {
   display: flex;
   margin: 0.5rem 1rem;

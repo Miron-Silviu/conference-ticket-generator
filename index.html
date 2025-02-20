@@ -37,11 +37,13 @@
       </div>
       <section class="form--info--contatiner">
         <div class="avatar">
-          <p class="avatar__info">Upload Avatar</p>
+          <h1 class="avatar__info">Upload Avatar</h1>
           <div class="drag__drop">
             <div class="img__upload__container">
               <form class="drag__drop__form">
-                <input accet=".JPG, .PNG" type="file" id="imgInp" />
+                <label for="imgInp" class="file__upload">
+                  <input accept=".JPG, .PNG" type="file" id="imgInp" />
+                </label>
               </form>
               <img
                 class="img__upload"
@@ -107,7 +109,7 @@
               <input
                 type="email"
                 name="gitHub"
-                id="username"
+                id="gitHub"
                 placeholder="@yourusername"
                 class="github__input"
               />

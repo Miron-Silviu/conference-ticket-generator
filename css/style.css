@@ -114,6 +114,7 @@ body {
   margin: 1rem 0 0 0;
   align-self: center;
   border-radius: 10px;
+  flex-direction: column;
   display: flex;
 }
 
@@ -130,9 +131,7 @@ body {
   text-align: center;
   padding: 0 0 0 0.5rem;
 }
-/* .form--info--contatiner {
-  background-color: blueviolet;
-} */
+
 /* form */
 
 .form {
@@ -180,6 +179,17 @@ body {
 ::placeholder {
   color: var(--neutral-0);
 }
+input[type='file'] {
+  display: none;
+}
+.file__upload {
+  /* background-color: red; */
+  padding: 1rem;
+  align-items: center;
+  margin-top: 0.1rem;
+  display: flex;
+  position: absolute;
+}
 
 /* button */
 .main__btn {
@@ -217,7 +227,10 @@ body {
   color: var(--neutral-0);
   text-align: center;
   justify-content: center;
-  padding: 0.5rem 0 0.7rem 0;
+
+  /* TODO */
+  align-self: flex-end;
+  /* padding: 0.5rem 0 0.7rem 0; */
 }
 
 .picture--img--container,

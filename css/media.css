@@ -8,6 +8,7 @@
 @media screen and (min-width: 800px) {
   body {
     background-image: url(../assets/images/background-desktop.png);
+    /* background-image: url(../assets/images/pattern-lines.svg); */
     display: flex;
     justify-content: center;
     align-items: center;

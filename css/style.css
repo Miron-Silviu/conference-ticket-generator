@@ -236,8 +236,8 @@ input[type='file'] {
   justify-content: center;
 
   /* TODO */
-  align-self: flex-end;
-  /* padding: 0.5rem 0 0.7rem 0; */
+  /* align-self: flex-end; */
+  /* padding-bottom: 1rem ; */
 }
 
 .picture--img--container,

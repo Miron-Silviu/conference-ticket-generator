@@ -223,6 +223,13 @@ input[type='file'] {
   margin-top: 2rem;
 }
 
+.line__image {
+  position: absolute;
+  height: 100vh;
+}
+.circle__image {
+  display: none;
+}
 .drag__drop__info {
   color: var(--neutral-0);
   text-align: center;

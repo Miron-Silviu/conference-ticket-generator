@@ -29,4 +29,16 @@
   .main__button__container {
     width: 100%;
   }
+  /* image */
+
+  .line__image {
+    position: absolute;
+    width: 50vw;
+    bottom: 9rem;
+  }
+  .circle__image {
+    position: absolute;
+    width: 10vw;
+    right: 10rem;
+  }
 }

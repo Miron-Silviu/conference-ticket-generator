@@ -1,6 +1,6 @@
-# Frontend Mentor - Conference ticket generator
+# Conference ticket generator
 
-![Design preview for the Conference ticket generator coding challenge](./preview.jpg)
+
 
 This is a solution to the [Conference ticket generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/conference-ticket-generator-oq5gFIU12w). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -38,6 +38,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
+![Design preview for the Conference ticket generator coding challenge](./preview.jpg)
 
 ![](./screenshot.jpg)
 

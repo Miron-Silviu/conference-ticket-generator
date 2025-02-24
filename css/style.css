@@ -234,10 +234,6 @@ input[type='file'] {
   color: var(--neutral-0);
   text-align: center;
   justify-content: center;
-
-  /* TODO */
-  /* align-self: flex-end; */
-  /* padding-bottom: 1rem ; */
 }
 
 .picture--img--container,

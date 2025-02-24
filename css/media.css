@@ -7,11 +7,10 @@
 
 @media screen and (min-width: 800px) {
   body {
+    align-items: center;
     background-image: url(../assets/images/background-desktop.png);
-    /* background-image: url(../assets/images/pattern-lines.svg); */
     display: flex;
     justify-content: center;
-    align-items: center;
   }
   .container {
     max-width: 40vw;
@@ -32,13 +31,13 @@
   /* image */
 
   .line__image {
+    bottom: 9rem;
     position: absolute;
     width: 50vw;
-    bottom: 9rem;
   }
   .circle__image {
     position: absolute;
-    width: 10vw;
     right: 10rem;
+    width: 10vw;
   }
 }

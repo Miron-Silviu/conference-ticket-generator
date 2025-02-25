@@ -48,16 +48,10 @@
   .form {
     background-image: url(../assets/images/pattern-squiggly-line-bottom-desktop.svg);
     background-position-x: left;
-    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 11rem;
-    background-size: contain;
-    display: flex;
+    background-position-y: bottom;
+    background-size: 65%;
     gap: 3rem;
     height: 70vh;
-    justify-content: center;
-    margin: 0.5rem 1rem;
-    max-width: auto;
-    /* TODO   FIX BACKGROUND  */
   }
 }

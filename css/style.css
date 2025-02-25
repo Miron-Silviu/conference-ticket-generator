@@ -43,10 +43,9 @@ body {
 /* main container */
 .container {
   background-image: url(../assets/images/pattern-squiggly-line-top.svg);
-  background-position-y: top;
-  background-position: right;
+  background-position-x: right;
   background-repeat: no-repeat;
-  background-size: 9rem;
+  background-size: 5rem;
   display: flex;
   flex-direction: column;
   margin: 0.5rem, 0.1rem;
@@ -55,6 +54,13 @@ body {
 .header--info {
   display: block;
   width: 100%;
+  background-image: url(../assets/images/pattern-lines.svg);
+}
+
+.line__image {
+  max-width: 100%;
+  font-size: larger;
+  /* background-color: brown; */
 }
 .logo__container {
   display: -webkit-flex;
@@ -134,7 +140,6 @@ body {
 /* form */
 
 .form {
-  /* background-color: blueviolet; */
   background-image: url(../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg);
   background-position-x: left;
   background-position-y: bottom;
@@ -220,12 +225,9 @@ input[type='file'] {
   margin-top: 2rem;
 }
 
-.line__image {
-  position: absolute;
-  height: 100vh;
-}
 .circle__image {
-  display: none;
+  /* display: none; */
+  font-size: 1rem;
 }
 .drag__drop__info {
   color: var(--neutral-0);

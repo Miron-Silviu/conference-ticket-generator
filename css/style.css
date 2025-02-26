@@ -47,7 +47,7 @@ body {
 }
 /* main container */
 .container {
-  /* background-image: url(../assets/images/pattern-squiggly-line-top.svg); */
+  background-image: url(../assets/images/pattern-squiggly-line-top.svg);
   background-position-x: right;
   background-repeat: no-repeat;
   background-size: 5rem;
@@ -66,7 +66,7 @@ body {
 }
 .logo__container {
   display: -webkit-flex;
-  justify-content: center;
+  justify-self: center;
   width: 100%;
 }
 .logo {

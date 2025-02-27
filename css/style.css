@@ -47,7 +47,7 @@ body {
 }
 /* main container */
 .container {
-  /background-position-x: right;
+  background-position-x: right;
   background-repeat: no-repeat;
   background-size: 3rem;
   display: flex;

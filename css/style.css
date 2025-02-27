@@ -67,6 +67,7 @@ body {
 .logo__container {
   display: -webkit-flex;
   margin: auto;
+  flex-direction: column;
 }
 .logo {
   color: var(--neutral-0);

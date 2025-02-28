@@ -4,3 +4,8 @@
   margin: 0;
   padding: 0;
 }
+
+.ticket--container {
+  width: 100%;
+  background-color: red;
+}

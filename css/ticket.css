@@ -4,9 +4,26 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* Colors */
+  --neutral-0: hsl(0, 0%, 100%);
+  --neutral-300: hsl(252, 6%, 83%);
+  --neutral-500: hsl(245, 15%, 58%);
+  --neutral-700: hsl(245, 19%, 35%);
+  --neutral-900: hsl(248, 70%, 10%);
+
+  /* Orange */
+  --orange-500: hsl(7, 88%, 67%);
+  --orange-700: hsl(7, 71%, 60%);
+
+  /* Gradient */
+  --Gradient-text: hsl(7, 86%, 67%) to hsl(0, 0%, 100%);
+}
+
 /* ticket info */
 .ticket--info--container {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: -webkit-flex;
   flex-direction: column;
   text-align: center;
@@ -19,12 +36,24 @@
   display: -webkit-flex;
   background-color: red;
   justify-self: center;
+  display: none;
 }
 
-.ticket__container__image {
+/* FIXME   */
+h2,
+[ticket__container__image] {
   display: -webkit-flex;
   max-width: 90vw;
   justify-self: center;
   justify-content: center;
   margin: auto;
+  color: white;
+}
+span {
+  color: var(--orange-500);
+  display: -webkit-flex;
+}
+
+.ticket__info {
+  color: var(--neutral-300);
 }

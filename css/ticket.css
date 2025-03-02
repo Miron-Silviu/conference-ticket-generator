@@ -42,24 +42,18 @@ h2,
 .ticket__container__image {
   color: white;
   display: block;
-  margin-bottom: 2rem;
   margin: auto;
   max-width: 90vw;
   margin-bottom: 2rem;
 }
 span {
   color: var(--orange-500);
-  display: -webkit-flex;
-  flex-direction: column;
 }
 
+/* FIXME */
 .ticket__info {
   color: var(--neutral-300);
-}
-
-.test {
-  display: flex;
-  flex-direction: column;
+  display: contents;
 }
 
 .email__info {

@@ -30,12 +30,13 @@
 }
 
 /* ticket  */
+
 .ticket--container {
-  background-color: red;
   display: -webkit-flex;
-  display: none;
   justify-self: center;
   max-width: 100vw;
+  margin-top: 2rem;
+  /* display: none; */
 }
 
 h2,
@@ -50,7 +51,6 @@ span {
   color: var(--orange-500);
 }
 
-/* FIXME */
 .ticket__info {
   color: var(--neutral-300);
   display: contents;
@@ -58,4 +58,10 @@ span {
 
 .email__info {
   color: var(--orange-700);
+}
+
+/* hidden */
+
+.ticket--info--container {
+  display: none;
 }

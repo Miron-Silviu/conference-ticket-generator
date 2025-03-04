@@ -36,6 +36,7 @@
   justify-self: center;
   max-width: 100vw;
   margin-top: 2rem;
+  position: relative;
   /* display: none; */
 }
 
@@ -70,4 +71,21 @@ span {
 .ticke--use-container,
 .ticket--number--container {
   color: var(--neutral-0);
+}
+
+/* FIXME */
+.ticket__logo__image {
+  position: static;
+  width: 5em;
+  bottom: 1rem;
+  left: 1.5rem;
+}
+
+.ticket--date--container {
+  background-color: brown;
+  position: absolute;
+  bottom: 10rem;
+  left: 2rem;
+  width: 10rem;
+  font-size: 0.5rem;
 }

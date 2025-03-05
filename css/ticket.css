@@ -73,19 +73,18 @@ span {
   color: var(--neutral-0);
 }
 
-/* FIXME */
-.ticket__logo__image {
-  position: static;
-  width: 5em;
-  bottom: 1rem;
-  left: 1.5rem;
+.ticket--container {
+  background-image: url('../assets/images/pattern-ticket.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  margin: 1rem;
 }
 
-.ticket--date--container {
-  background-color: brown;
-  position: absolute;
-  bottom: 10rem;
-  left: 2rem;
-  width: 10rem;
-  font-size: 0.5rem;
+.ticket__avatar__img {
+  width: 10px;
 }

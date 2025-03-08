@@ -72,16 +72,27 @@ span {
   height: 50vh;
   justify-content: center;
   margin: 1rem;
+  background-color: green;
+}
+.ticket--logo-container--image {
+  background-color: red;
+  width: 70%;
+  flex-grow: initial;
+  margin-bottom: 2rem;
 }
 .ticket__logo__image {
   width: 40vw;
-  /* margin: 0 1rem 0 1rem; */
+  margin: 0 1rem 0 1rem;
   flex-grow: 2;
 }
-
+.ticket--date--container {
+  align-content: start;
+  background-color: brown;
+  width: 70%;
+}
 .ticket__date__info {
   font-size: 0.7rem;
-  margin: 0.1rem 0 0 2rem;
+  margin: 0 0 0 2rem;
   color: var(--neutral-300);
   flex-grow: 2;
 }
@@ -89,9 +100,10 @@ span {
   display: flex;
 }
 .ticket__avatar__img {
-  width: 50px;
+  width: 40px;
   border-radius: 5px;
   margin: 0 1rem 0 1rem;
+  height: 100%;
 }
 /* .ticket--number--container {
   background-color: blueviolet;

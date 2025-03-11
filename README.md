@@ -11,12 +11,12 @@
   - [Author](#author)
 
 
-#Link
+# Link
 
 [![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/conference-ticket-generator/)
 
 
-### The challenge
+## The challenge
 
 Users should be able to:
 - Complete the form with their details
@@ -30,7 +30,7 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+## Screenshot
 ![Design preview for the Conference ticket generator coding challenge](./preview.jpg)
 
 ## My process
@@ -48,7 +48,7 @@ Users should be able to:
 
 
 
-### What I learned
+## What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

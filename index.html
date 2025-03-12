@@ -37,7 +37,7 @@
             </h5>
           </article>
         </div>
-        <div class="ticket--info--container">
+        <div class="ticket--info--container hidden">
           <h2 class="head__ticket__info">
             Congrats,<span class="user__name">Jonatan Cristof!</span>Your ticket
             is ready.
@@ -52,18 +52,20 @@
         </div>
       </div>
 
-      <section class="ticket--container">
-        <div class="ticket--logo-container--image">
-          <img
-            class="ticket__logo__image"
-            src="./assets/images/logo-full.svg"
-            alt="logo"
-          />
-        </div>
-        <div class="ticket--date--container">
-          <p class="ticket__date__info">
-            <time datetime="2020-09-09">Sept 09, 2025 </time>/ London UK
-          </p>
+      <section class="ticket--container hidden">
+        <div class="logo--date-container">
+          <div class="ticket--logo-container--image">
+            <img
+              class="ticket__logo__image"
+              src="./assets/images/logo-full.svg"
+              alt="logo"
+            />
+          </div>
+          <div class="ticket--date--container">
+            <p class="ticket__date__info">
+              <time datetime="2020-09-09">Sept 09, 2025 </time>/ London UK
+            </p>
+          </div>
         </div>
         <div class="ticket--user-container">
           <img
@@ -74,16 +76,21 @@
           <div class="ticket--user--info--container">
             <h3 class="useer__info__name">Jonatan Kristof</h3>
             <div class="ticket--github--container">
-              <img src="./assets/images/icon-github.svg" alt="github" />
-              <a href="mailto:someone@gmai.com">@Kristofjonatanf0f101</a>
+              <img
+                class="github__img"
+                src="./assets/images/icon-github.svg"
+                alt="github"
+              />
+              <a class="github__email" href="mailto:someone@gmai.com"
+                >@Kristofjonatanf0f101</a
+              >
             </div>
           </div>
         </div>
-
         <p class="ticket__number">#01609</p>
       </section>
 
-      <section class="form--info--contatiner">
+      <section class="form--info--contatiner hidden">
         <div class="avatar">
           <h5 class="avatar__info">Upload Avatar</h5>
           <div class="drag__drop">

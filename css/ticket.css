@@ -61,7 +61,6 @@ span {
   color: var(--orange-700);
 }
 
-/* FIXME */
 .ticket--container {
   background-image: url('../assets/images/pattern-ticket.svg');
   background-position: center;

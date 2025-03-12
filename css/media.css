@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   body {
     align-items: center;
     background-image: url(../assets/images/background-desktop.png);
@@ -57,5 +57,36 @@
     background-size: 65%;
     gap: 3rem;
     height: 70vh;
+  }
+
+  /* Ticket */
+
+  .ticket--container {
+    background-color: green;
+    gap: 5rem;
+  }
+  .logo--date-container {
+    gap: 4rem;
+    /* max-width: 90%; */
+    height: auto;
+  }
+  .ticket--logo-container--image {
+    background-color: red;
+    height: auto;
+  }
+  .ticket__logo__image {
+    max-width: 70%;
+  }
+  .ticket--date--container {
+    background-color: blue;
+    height: 50%;
+  }
+  /* FIXME */
+  time,
+  .ticket__date__info {
+    font-size: x-large;
+  }
+  .ticket__number {
+    left: 25rem !important;
   }
 }

@@ -63,10 +63,10 @@
 
   .ticket--container {
     gap: 5rem;
+    display: none;
   }
   .logo--date-container {
     gap: 4rem;
-    /* max-width: 90%; */
     height: auto;
   }
   .ticket--logo-container--image {

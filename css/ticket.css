@@ -119,10 +119,17 @@ span {
 }
 /* hidden */
 
-.ticket--info--container {
+.ticket--info--container,
+.ticket--container {
   display: none;
 }
+/* 
+.form--info--contatiner,
+.logo__container {
+  display: none;
+} */
 
+/* ticket */
 .ticket--date--container,
 .ticke--use-container,
 .ticket--number--container {

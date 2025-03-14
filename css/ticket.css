@@ -23,7 +23,7 @@
 
 /* ticket info */
 .ticket--info--container {
-  display: -webkit-flex;
+  display: flex;
   flex-direction: column;
   margin: 1rem;
   text-align: center;

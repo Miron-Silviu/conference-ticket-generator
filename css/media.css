@@ -62,7 +62,6 @@
   /* Ticket */
 
   .ticket--container {
-    background-color: green;
     gap: 5rem;
   }
   .logo--date-container {
@@ -71,20 +70,18 @@
     height: auto;
   }
   .ticket--logo-container--image {
-    background-color: red;
     height: auto;
   }
   .ticket__logo__image {
     max-width: 70%;
   }
   .ticket--date--container {
-    background-color: blue;
     height: 50%;
   }
-  /* FIXME */
+
   time,
   .ticket__date__info {
-    font-size: x-large;
+    font-size: 1rem;
   }
   .ticket__number {
     left: 25rem !important;

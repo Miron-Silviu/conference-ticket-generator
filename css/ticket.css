@@ -140,7 +140,6 @@ span {
 
 .github__img {
   position: relative;
-  transform: translate(100px 50px);
   width: 0.7rem;
 }
 

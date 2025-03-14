@@ -37,7 +37,6 @@
   max-width: 100vw;
   margin-top: 2rem;
   position: relative;
-  /* display: none; */
 }
 
 h2,
@@ -71,7 +70,6 @@ span {
   height: 50vh;
   justify-content: center;
   margin: 1rem;
-  /* background-color: green; */
 }
 .logo--date-container {
   margin-bottom: 2rem;
@@ -121,13 +119,13 @@ span {
 
 .ticket--info--container,
 .ticket--container {
-  display: none;
+  /* display: none; */
 }
-/* 
+
 .form--info--contatiner,
 .logo__container {
   display: none;
-} */
+}
 
 /* ticket */
 .ticket--date--container,

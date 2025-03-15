@@ -2,23 +2,22 @@
 
 ## Table of contents
 
-  - [Link](#links)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Author](#author)
-
+- [Link](#links)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Author](#author)
 
 # Link
 
 [![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/conference-ticket-generator/)
 
-
 ## The challenge
 
 Users should be able to:
+
 - Complete the form with their details
 - Receive form validation messages if:
   - Any field is missed
@@ -31,22 +30,23 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ## Screenshot
+
 ![Design preview for the Conference ticket generator coding challenge](./preview.jpg)
 
 ## My process
+
+-Inside index.html create HTML code. Inside the code accesabiliy tools are implemnted .
+-Add normalize.css for better rendability.
+-Create style.css and use mobile first to style the elements.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+
 - [Styled Components](https://styled-components.com/) - For styles
-
-
 
 ## What I learned
 

@@ -122,10 +122,10 @@ span {
   display: none;
 }
 
-.form--info--contatiner,
+/* .form--info--contatiner,
 .logo__container {
-  /* display: none; */
-}
+  display: none;
+} */
 
 /* ticket */
 .ticket--date--container,

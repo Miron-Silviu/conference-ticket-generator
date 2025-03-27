@@ -2,7 +2,7 @@
 
 // Naming variables
 
-const imgInput = document.getElementById('imgInp');
+// const imgInput = document.getElementById('imgInp');
 
 // Buttons
 const mainBtn = document.querySelector('.main__btn');
@@ -14,3 +14,9 @@ const removeBtn = document.querySelector('.remove');
 const nameInp = document.querySelector('.input__name');
 const emailInp = document.querySelector('.email__input');
 const gitHubInp = document.querySelector('.github__input');
+
+// Add event listner
+
+mainBtn.addEventListener('click', function () {
+  console.log('You clicked me! ');
+});

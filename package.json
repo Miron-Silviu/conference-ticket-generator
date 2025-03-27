@@ -1,8 +1,15 @@
 {
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "conference-ticket-generator",
+  "version": "1.0.0",
+  "description": "- [Link](#links)\r - [The challenge](#the-challenge)\r - [Screenshot](#screenshot)\r - [My process](#my-process)\r - [Built with](#built-with)\r - [What I learned](#what-i-learned)\r - [Author](#author)",
+  "main": "script.js",
   "devDependencies": {
     "jest": "^29.7.0"
   },
-  "scripts": {
-    "test": "jest"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

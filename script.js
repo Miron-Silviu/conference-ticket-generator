@@ -2,7 +2,7 @@
 
 // Naming variables
 
-// const imgInput = document.getElementById('imgInp');
+const imgInput = document.getElementById('imgInp');
 
 // Buttons
 const mainBtn = document.querySelector('.main__btn');

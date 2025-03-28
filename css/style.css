@@ -181,6 +181,7 @@ body {
   opacity: 0.5;
   padding: 0.7rem 0;
   width: 100%;
+  color: rgb(255, 251, 0);
 }
 ::placeholder {
   color: var(--neutral-0);

@@ -10,7 +10,6 @@ const changeBtn = document.querySelector('.change');
 const removeBtn = document.querySelector('.remove');
 
 // Inputs
-
 const nameInp = document.querySelector('.input__name');
 const emailInp = document.querySelector('.email__input');
 const gitHubInp = document.querySelector('.github__input');
@@ -18,5 +17,8 @@ const gitHubInp = document.querySelector('.github__input');
 // Add event listner
 
 mainBtn.addEventListener('click', function () {
-  console.log('You clicked me! ');
+  let fullName = nameInp.value;
+  let email = emailInp.value;
+  let gitHub = gitHubInp.value;
+  console.log(fullName, email, gitHub);
 });

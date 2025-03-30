@@ -16,9 +16,15 @@ const gitHubInp = document.querySelector('.github__input');
 
 // Add event listner
 
+const emailPatern = /^[^\s@][+@[^\s@]+\.[^\s@]+$/;
+
 mainBtn.addEventListener('click', function () {
   let fullName = nameInp.value;
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
   console.log(fullName, email, gitHub);
+
+  if (fullName || email || gitHub == '') {
+    console.log('Please complete the full name ');
+  }
 });

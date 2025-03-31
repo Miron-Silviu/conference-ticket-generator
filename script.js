@@ -16,12 +16,20 @@ const gitHubInp = document.querySelector('.github__input');
 
 // Add event listner
 
+function patern() {
+  return emailPatern;
+}
 const emailPatern = /^[^\s@][+@[^\s@]+\.[^\s@]+$/;
+const check = new RegExp('@');
+// console.log(check.test(emailPatern));
+
+// const check = test.test(patern);
 
 mainBtn.addEventListener('click', function () {
   let fullName = nameInp.value;
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
+  check.test(emailPatern);
   console.log(fullName, email, gitHub);
 
   if (fullName || email || gitHub == '') {

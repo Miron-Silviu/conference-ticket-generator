@@ -11,28 +11,25 @@ const removeBtn = document.querySelector('.remove');
 
 // Inputs
 const nameInp = document.querySelector('.input__name');
-const emailInp = document.querySelector('.email__input');
+let emailInp = document.querySelector('.email__input');
 const gitHubInp = document.querySelector('.github__input');
 
 // Add event listner
 
-function patern() {
-  return emailPatern;
+function patern(input) {
+  const emailPatern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return emailPatern.test(input);
 }
-const emailPatern = /^[^\s@][+@[^\s@]+\.[^\s@]+$/;
-const check = new RegExp('@');
-// console.log(check.test(emailPatern));
 
-// const check = test.test(patern);
+const isEmailInvalid = function (input) {
+  return patern(input);
+};
 
 mainBtn.addEventListener('click', function () {
   let fullName = nameInp.value;
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
-  check.test(emailPatern);
+  email = isEmailInvalid(email);
+  gitHub = isEmailInvalid(gitHub);
   console.log(fullName, email, gitHub);
-
-  if (fullName || email || gitHub == '') {
-    console.log('Please complete the full name ');
-  }
 });

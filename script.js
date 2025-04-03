@@ -14,6 +14,9 @@ const nameInp = document.querySelector('.input__name');
 let emailInp = document.querySelector('.email__input');
 const gitHubInp = document.querySelector('.github__input');
 
+// paragraphs
+const emailErrorInfo = document.querySelector('.email__error__info');
+
 // Add event listner
 
 function patern(input) {
@@ -31,5 +34,6 @@ mainBtn.addEventListener('click', function () {
   let gitHub = gitHubInp.value;
   email = isEmailInvalid(email);
   gitHub = isEmailInvalid(gitHub);
+
   console.log(fullName, email, gitHub);
 });

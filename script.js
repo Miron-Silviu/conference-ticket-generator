@@ -28,6 +28,13 @@ const isEmailInvalid = function (input) {
   return patern(input);
 };
 
+file__upload.onchange = (evt) => {
+  const [file] = file__upload.files;
+
+  if (file) {
+    avatarImg.src = URL.createObjectURL(file);
+  }
+};
 // Add event listner
 
 mainBtn.addEventListener('click', function () {

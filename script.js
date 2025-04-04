@@ -18,6 +18,8 @@ const dragDropInp = document.querySelector('.file__upload');
 // paragraphs
 const emailErrorInfo = document.querySelector('.email__error__info');
 
+// imaes
+const avatarImag = document.querySelector('.avatarImg');
 // Create regex function
 function patern(input) {
   const emailPatern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;

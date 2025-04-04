@@ -33,10 +33,9 @@ mainBtn.addEventListener('click', function () {
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
   let emailValid = isEmailInvalid(email);
-  let gitHubValid = isEmailInvalid(gitHub);
 
   if (emailValid === false) {
     emailErrorInfo.style.visibility = 'visible';
   }
-  console.log(fullName, emailValid, gitHubValid);
+  console.log(fullName, emailValid, gitHub);
 });

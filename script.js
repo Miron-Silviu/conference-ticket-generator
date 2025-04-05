@@ -13,13 +13,13 @@ const removeBtn = document.querySelector('.remove');
 const nameInp = document.querySelector('.input__name');
 let emailInp = document.querySelector('.email__input');
 const gitHubInp = document.querySelector('.github__input');
-const dragDropInp = document.querySelector('.file__upload');
+// const dragDropInp = document.querySelector('.file__upload');
 
 // paragraphs
 const emailErrorInfo = document.querySelector('.email__error__info');
 
-// imaes
-const avatarImag = document.querySelector('.avatarImg');
+const dragDropInp = document.getElementById('imgInp');
+const avatarImag = document.getElementById('avatarImg');
 // Create regex function
 function patern(input) {
   const emailPatern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -30,13 +30,15 @@ const isEmailInvalid = function (input) {
   return patern(input);
 };
 
-file__upload.onchange = (evt) => {
-  const [file] = file__upload.files;
+// FIXME
+dragDropInp.onchange = (evt) => {
+  const [file] = dragDropInp.files;
 
   if (file) {
-    avatarImg.src = URL.createObjectURL(file);
+    avatarImag.src = URL.createObjectURL(file);
   }
 };
+
 // Add event listner
 
 mainBtn.addEventListener('click', function () {

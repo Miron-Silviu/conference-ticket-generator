@@ -262,3 +262,15 @@ input[type='file'] {
   margin: -0.5rem 0.5rem -0.5rem 0.5rem;
   visibility: hidden;
 }
+
+/* Id avatar */
+
+/* FIXME */
+#avatarImg {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.01rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}

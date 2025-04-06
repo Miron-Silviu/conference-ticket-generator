@@ -30,7 +30,6 @@ const isEmailInvalid = function (input) {
   return patern(input);
 };
 
-// FIXME
 dragDropInp.onchange = (evt) => {
   const [file] = dragDropInp.files;
 

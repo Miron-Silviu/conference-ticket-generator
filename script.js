@@ -18,6 +18,10 @@ const gitHubInp = document.querySelector('.github__input');
 // paragraphs
 const emailErrorInfo = document.querySelector('.email__error__info');
 
+// containers
+
+const dragDropButtonsContainer = document.querySelector('.drag__drop__buttons');
+
 const dragDropInp = document.getElementById('imgInp');
 const avatarImag = document.getElementById('avatarImg');
 // Create regex function

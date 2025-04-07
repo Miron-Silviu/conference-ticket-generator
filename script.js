@@ -40,8 +40,12 @@ dragDropInp.onchange = (evt) => {
   if (file) {
     avatarImag.src = URL.createObjectURL(file);
   }
+  dragDropButtonsContainer.style.display = 'flex';
 };
 
+// if (dragDropInp) {
+
+// }
 // Add event listner
 
 mainBtn.addEventListener('click', function () {

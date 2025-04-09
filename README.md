@@ -38,7 +38,7 @@ Users should be able to:
 -Inside index.html create HTML code. Inside the code accesabiliy tools are implemnted .
 -Add normalize.css for better rendability.
 -Create style.css and use mobile first to style the elements.
--Create script.js file inside feature/js branch
+-Create script.js file inside feature/js branch.Use query selector to select elements from index. html. Create drag and drop feature.Create e-mail validation input. 
 
 ### Built with
 

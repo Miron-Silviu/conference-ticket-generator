@@ -30,22 +30,17 @@ function patern(input) {
   return emailPatern.test(input);
 }
 
-const isEmailInvalid = function (input) {
-  return patern(input);
-};
-
-dragDropInp.onchange = (evt) => {
-  const [file] = dragDropInp.files;
+imgInp.onchange = (evt) => {
+  const [file] = imgInp.files;
 
   if (file) {
     avatarImag.src = URL.createObjectURL(file);
+
+    avatarImag.style.display = 'block';
   }
   dragDropButtonsContainer.style.display = 'flex';
 };
 
-// if (dragDropInp) {
-
-// }
 // Add event listner
 
 mainBtn.addEventListener('click', function () {

@@ -234,6 +234,7 @@ input[type='file'] {
 .drag__drop__info {
   color: var(--neutral-0);
   justify-content: center;
+  margin-top: 2rem;
   text-align: center;
 }
 

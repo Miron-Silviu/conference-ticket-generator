@@ -109,7 +109,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  height: 17vh;
+  height: 27vh;
   margin: 0.5rem 0rem;
   opacity: 0.5;
 }
@@ -225,7 +225,6 @@ input[type='file'] {
   display: none;
   gap: 1rem;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .circle__image {

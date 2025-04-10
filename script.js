@@ -17,6 +17,7 @@ const gitHubInp = document.querySelector('.github__input');
 
 // paragraphs
 const emailErrorInfo = document.querySelector('.email__error__info');
+const dragDropParagraphInfo = document.querySelector('.drag__drop__info');
 
 // containers
 
@@ -24,6 +25,7 @@ const dragDropButtonsContainer = document.querySelector('.drag__drop__buttons');
 
 const dragDropInp = document.getElementById('imgInp');
 const avatarImag = document.getElementById('avatarImg');
+
 // Create regex function
 function patern(input) {
   const emailPatern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -39,7 +41,10 @@ imgInp.onchange = (evt) => {
     avatarImag.style.display = 'block';
   }
   dragDropButtonsContainer.style.display = 'flex';
+  dragDropParagraphInfo.style.display = 'none';
 };
+
+// TODO ADD animaltions to buttons and input fields in CSS  .
 
 // Add event listner
 

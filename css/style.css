@@ -218,6 +218,8 @@ input[type='file'] {
   border: none;
   color: var(--neutral-0);
   padding: 0.3rem;
+  transition-timing-function: ease-out;
+  cursor: pointer;
 }
 
 /* hidden container */

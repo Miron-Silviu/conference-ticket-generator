@@ -44,8 +44,6 @@ imgInp.onchange = (evt) => {
   dragDropParagraphInfo.style.display = 'none';
 };
 
-// TODO ADD animaltions to buttons and input fields in CSS  .
-
 // Add event listner
 
 mainBtn.addEventListener('click', function () {

@@ -6,8 +6,8 @@ const imgInput = document.getElementById('imgInp');
 
 // Buttons
 const mainBtn = document.querySelector('.main__btn');
-const changeBtn = document.querySelector('.change');
 const removeBtn = document.querySelector('.remove');
+const changeBtn = document.querySelector('.change');
 
 // Inputs
 const nameInp = document.querySelector('.input__name');
@@ -44,6 +44,13 @@ imgInp.onchange = (evt) => {
   dragDropParagraphInfo.style.display = 'none';
 };
 
+// Remove and change buttons
+removeBtn.addEventListener('click', function () {
+  imgInp.onchange = (eve) => {
+    const filles = 0;
+    return filles;
+  };
+});
 // Add event listner
 
 mainBtn.addEventListener('click', function () {

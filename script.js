@@ -46,10 +46,10 @@ imgInp.onchange = (evt) => {
 
 // Remove and change buttons
 removeBtn.addEventListener('click', function () {
-  imgInp.onchange = (eve) => {
-    const filles = 0;
-    return filles;
+  imgInp.onchange = (evt) => {
+    avatarImag.style.display = 'hidden';
   };
+  console.log('None');
 });
 // Add event listner
 
@@ -57,7 +57,7 @@ mainBtn.addEventListener('click', function () {
   let fullName = nameInp.value;
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
-  let emailValid = isEmailInvalid(email);
+  let emailValid = emailValid(email);
 
   if (emailValid === false) {
     emailErrorInfo.style.visibility = 'visible';

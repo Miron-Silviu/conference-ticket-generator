@@ -46,10 +46,7 @@ imgInp.onchange = (evt) => {
 
 // Remove and change buttons
 removeBtn.addEventListener('click', function () {
-  imgInp.onchange = (evt) => {
-    avatarImag.style.display = 'hidden';
-  };
-  console.log('None');
+  avatarImag.style.display = 'none';
 });
 // Add event listner
 

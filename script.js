@@ -43,10 +43,16 @@ imgInp.onchange = (evt) => {
   dragDropButtonsContainer.style.display = 'flex';
   dragDropParagraphInfo.style.display = 'none';
 };
-
 // Remove and change buttons
 removeBtn.addEventListener('click', function () {
   avatarImag.style.display = 'none';
+});
+
+// Remove Button
+
+// FIXME
+changeBtn.addEventListener('click', function () {
+  console.log('None');
 });
 // Add event listner
 

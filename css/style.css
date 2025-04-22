@@ -211,6 +211,16 @@ input[type='file'] {
   width: auto;
 }
 
+.main__btn:hover {
+  background-color: #3e8e41;
+}
+
+.main__btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .remove,
 .change {
   background-color: var(--neutral-500);
@@ -218,8 +228,15 @@ input[type='file'] {
   border: none;
   color: var(--neutral-0);
   padding: 0.3rem;
-  transition-timing-function: ease-out;
   cursor: pointer;
+}
+.remove:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.change:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* hidden container */
@@ -275,16 +292,4 @@ input[type='file'] {
   height: 50px;
   border-radius: 10px;
   display: none;
-}
-
-/* main button */
-
-.main__btn:hover {
-  background-color: #3e8e41;
-}
-
-.main__btn:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }

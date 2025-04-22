@@ -86,4 +86,15 @@
   .ticket__number {
     left: 25rem !important;
   }
+
+  /* Main button */
+
+  .main__btn:hover {
+    background-color: #3e8e41;
+  }
+
+  .main__button__container,
+  .main__btn:active {
+    transform: translateY(4px);
+  }
 }

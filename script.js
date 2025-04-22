@@ -50,7 +50,6 @@ removeBtn.addEventListener('click', function () {
 
 // Remove Button
 
-// FIXME
 changeBtn.addEventListener('click', function () {
   imgInp.click();
 });

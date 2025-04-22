@@ -52,7 +52,7 @@ removeBtn.addEventListener('click', function () {
 
 // FIXME
 changeBtn.addEventListener('click', function () {
-  console.log('None');
+  imgInp.click();
 });
 // Add event listner
 

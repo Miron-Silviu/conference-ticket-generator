@@ -294,10 +294,11 @@ input[type='file'] {
   display: none;
 }
 
-/* .ticket--container,
-.form--info--contatiner {
+.ticket--container,
+.form--info--contatiner,
+.logo__container {
   display: none;
-} */
+}
 
 /* .ticket--info--container,
 .ticket--container {

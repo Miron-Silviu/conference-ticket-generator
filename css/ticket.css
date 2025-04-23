@@ -119,7 +119,7 @@ span {
 
 .ticket--info--container,
 .ticket--container {
-  display: none;
+  /* display: none; */
 }
 
 /* .form--info--contatiner,

@@ -293,3 +293,13 @@ input[type='file'] {
   border-radius: 10px;
   display: none;
 }
+
+/* .ticket--container,
+.form--info--contatiner {
+  display: none;
+} */
+
+/* .ticket--info--container,
+.ticket--container {
+  display: block;
+} */

@@ -63,10 +63,18 @@ mainBtn.addEventListener('click', function () {
   let fullName = nameInp.value;
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
-  let emailValid = emailValid(email);
+  // let isemailValid = emailValid(email);
 
-  if (emailValid === false) {
-    emailErrorInfo.style.visibility = 'visible';
+  // if (isemailValid === false) {
+  //   emailErrorInfo.style.visibility = 'visible';
+  // }
+  // console.log(fullName, isemailValid, gitHub);
+
+  if (fullName && email && gitHub) {
+    ticketInfoContainer.style.display = 'block';
+    ticketContainer.style.display = 'block';
+    logoContainer.style.display = 'none';
+    formContainer.style.display = 'none';
+    console.log('Test');
   }
-  console.log(fullName, emailValid, gitHub);
 });

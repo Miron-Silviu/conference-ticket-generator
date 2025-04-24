@@ -24,6 +24,8 @@ const dragDropParagraphInfo = document.querySelector('.drag__drop__info');
 const dragDropButtonsContainer = document.querySelector('.drag__drop__buttons');
 const ticketInfoContainer = document.querySelector('.ticket--info--container');
 const ticketContainer = document.querySelector('.ticket--container');
+const formContainer = document.querySelector('.form--info--contatiner');
+const logoContainer = document.querySelector('.logo__container');
 
 const dragDropInp = document.getElementById('imgInp');
 const avatarImag = document.getElementById('avatarImg');

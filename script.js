@@ -71,8 +71,8 @@ mainBtn.addEventListener('click', function () {
   // console.log(fullName, isemailValid, gitHub);
 
   if (fullName && email && gitHub) {
-    ticketInfoContainer.style.display = 'block';
-    ticketContainer.style.display = 'block';
+    ticketInfoContainer.style.display = 'flex';
+    ticketContainer.style.display = 'flex';
     logoContainer.style.display = 'none';
     formContainer.style.display = 'none';
     console.log('Test');

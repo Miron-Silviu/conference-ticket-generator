@@ -38,7 +38,8 @@ Users should be able to:
 -Inside index.html create HTML code. Inside the code accesabiliy tools are implemnted .
 -Add normalize.css for better rendability.
 -Create style.css and use mobile first to style the elements.
--Create script.js file inside feature/js branch.Use query selector to select elements from index. html. Create drag and drop feature.Create e-mail validation input. 
+-Create script.js file inside feature/js branch.Use query selector to select elements from index. html. Create drag and drop feature.Create e-mail validation input.
+-Create blob APIs functionality.
 
 ### Built with
 
@@ -51,9 +52,8 @@ Users should be able to:
 
 ## What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+One of the most important feature I learned how to implement blob web APIs,
+and by using regular expression how to implement email validation.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

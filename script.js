@@ -64,6 +64,15 @@ mainBtn.addEventListener('click', function () {
   let email = emailInp.value;
   let gitHub = gitHubInp.value;
   let imageInput = imgInp.value;
+  let isEmail = patern(email);
+
+  if (!isEmail) {
+    emailErrorInfo.style.visibility = 'visible';
+  } else {
+    emailErrorInfo.style.visibility = 'hidden';
+  }
+
+  console.log(isEmail);
 
   if (fullName && email && gitHub && imageInput) {
     ticketInfoContainer.style.display = 'flex';
